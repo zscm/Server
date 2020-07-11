@@ -21,10 +21,11 @@ var adverments = [
     {
         id: 5,
         url: '/images/banner4.png'
-    },
+    }
 ]
 
 /* 查询商品 */
+
 router.get('/', function (req, res, next) {
     res.send(JSON.stringify(adverments));
 });
