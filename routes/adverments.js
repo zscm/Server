@@ -4,23 +4,28 @@ var router = express.Router();
 var adverments = [
     {
         id: 1,
-        url: '/images/banner0.png'
+        image: '/images/5.jpg',
+        url:'https://dfyl88.cn'
     },
     {
         id: 2,
-        url: '/images/banner1.png'
+        image: '/images/6.jpg',
+        url:'Tuiguang'
     },
     {
         id: 3,
-        url: '/images/banner2.png'
+        image: '/images/7.jpg',
+        url:'https://df688.cn'
     },
     {
         id: 4,
-        url: '/images/banner3.png'
+        image: '/images/8.jpg',
+        url:'https://www.leu66.com'
     },
     {
         id: 5,
-        url: '/images/banner4.png'
+        image: '/images/5.jpg',
+        url:'https://h5.leu66.com'
     }
 ]
 
