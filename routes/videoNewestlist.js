@@ -378,8 +378,6 @@ var videoAllList = [
             {
                 id: 1,
                 text2: '更多>',
-                // image: '/images/6.jpg',
-                // url: 'https://dfyl88.cn',
             },
         ],
     }

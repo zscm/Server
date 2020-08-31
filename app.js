@@ -10,6 +10,7 @@ var productsRouter = require('./routes/products');
 var advermentsRouter = require('./routes/adverments');
 var classifyRouter = require('./routes/classify');
 var videoNewestListRouter = require('./routes/videoNewestlist');
+var allVideoListRouter = require('./routes/allVideoList');
 
 var app = express();
 
@@ -27,9 +28,10 @@ app.use('/', indexRouter);
 app.use('/products', productsRouter);
 app.use('/products/:id', productsRouter);
 app.use('/adverments', advermentsRouter);
-app.use('/classify',classifyRouter);
+app.use('/classify', classifyRouter);
 app.use('/users', usersRouter);
-app.use('/videoNewestlist',videoNewestListRouter);
+app.use('/videoNewestlist', videoNewestListRouter);
+app.use('/allVideoList', allVideoListRouter);
 
 
 // catch 404 and forward to error handler

@@ -45,7 +45,6 @@ var adverments = [
 ]
 
 /* 查询商品 */
-
 router.get('/', function (req, res, next) {
     res.send(JSON.stringify(adverments));
 });
